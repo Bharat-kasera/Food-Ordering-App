@@ -37,7 +37,7 @@ const Footer = () => {
                   household.You can trust us anywhere through this platform
                 </p>
                 <p>
-                  &copy;2022 Made with <i  className="bi bi-heart-fill"></i>{" "}
+                  &copy;2023 Made with <i  className="bi bi-heart-fill"></i>{" "}
                   by&nbsp;
                   <a
                     href=""
