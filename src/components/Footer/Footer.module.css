@@ -1,5 +1,5 @@
 .footer_bg {
-  background-color: var(--bordercolor);
+  background-color: #F1414F;
 }
 
 .row {
@@ -26,7 +26,7 @@
 }
 
 .about p:hover {
-  color: var(--primaryitemcolor);
+  color: #000;
 }
 
 .social {
@@ -44,7 +44,7 @@
 }
 
 .social p:hover {
-  background-color: var(--primaryitemcolor);
+  background-color: #000;
 }
 
 .social_icon {
@@ -52,6 +52,7 @@
 }
 
 .navbar_brand {
+  width: 250px;
   cursor: pointer;
 }
 
@@ -63,9 +64,11 @@
   font-weight: 500;
   font-weight: 18px;
 }
-
+.white{
+  color: white;
+}
 .eniola_codes:hover {
-  color: var(--primaryitemcolor);
+  color: #000;
 }
 .content_div i,
 .mobile_copy i {
@@ -103,4 +106,7 @@
     margin-top: 0px;
     margin-right: 20px;
   }
+}
+.bi-heart-fill::before {
+    color: white;
 }

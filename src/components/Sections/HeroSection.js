@@ -5,11 +5,15 @@ import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FoodImage from "../../assets/image/FoodImage.webp";
+import HeroImage from "../../assets/image/heroimg.svg";
+
+
 
 const HeroSection = () => {
   //Rendering the Hero section(Landing page) on the DOM
   return (
     <section id="hero">
+    
       <Container>
         <Row className={`${classes.row} mx-auto`}>
           <Col
@@ -44,7 +48,7 @@ const HeroSection = () => {
             <div className={`ms-auto`}>
               <img
                 className={classes.food__image}
-                src={FoodImage}
+                src={HeroImage}
                 fluid="true"
                 alt="Food pic"
                 data-aos="fade-left"

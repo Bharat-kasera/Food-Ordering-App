@@ -6,7 +6,9 @@
 .navbar_brand {
   cursor: pointer;
 }
-
+.logo{
+  width: 10rem;
+}
 .navbar .toggle {
   border: none;
 }

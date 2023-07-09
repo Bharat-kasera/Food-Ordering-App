@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./Footer.module.css";
-import Logo from "../../assets/Logo/Logo.svg";
+import Logo from "../../assets/Logo/Logo4.svg";
 import { Link } from "react-scroll";
 import insta from "../../assets/Icon/instagram.png";
 import twitter from "../../assets/Icon/twitter.png";
@@ -37,15 +37,15 @@ const Footer = () => {
                   household.You can trust us anywhere through this platform
                 </p>
                 <p>
-                  &copy;2022 Made with <i className="bi bi-heart-fill"></i>{" "}
+                  &copy;2022 Made with <i  className="bi bi-heart-fill"></i>{" "}
                   by&nbsp;
                   <a
-                    href="https://github.com/Eniola-Codes"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                     className={classes.eniola_codes}
                   >
-                    EniolaCodes
+                    Bharat Kasera
                   </a>
                 </p>
               </div>
@@ -66,7 +66,7 @@ const Footer = () => {
             <div className={classes.social}>
               <h3>Social</h3>
               <a
-                href="https://www.instagram.com/code_redex/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -79,7 +79,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://mobile.twitter.com/EniolaCodes/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -92,7 +92,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://www.linkedin.com/in/eni-ola/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
@@ -108,14 +108,14 @@ const Footer = () => {
           </Col>
 
           <p className={classes.mobile_copy}>
-            &copy;2022 Made with <i className="bi bi-heart-fill"></i> by&nbsp;
+            &copy;2023 Made with <i className="bi bi-heart-fill "></i> by&nbsp;
             <a
-              href="https://github.com/Eniola-Codes"
+              href=""
               target="_blank"
               rel="noreferrer"
               className={classes.eniola_codes}
             >
-              EniolaCodes
+              Bharat
             </a>
           </p>
         </Row>

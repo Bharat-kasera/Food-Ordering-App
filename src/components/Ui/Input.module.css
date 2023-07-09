@@ -2,6 +2,7 @@
   width: 50px;
   border: 1px solid var(--bordercolor);
   border-radius: 3px;
+  padding: 0.5rem;
 }
 
 .input_amount:focus,

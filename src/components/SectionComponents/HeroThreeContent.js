@@ -10,7 +10,7 @@ const HeroThreeContent = (props) => {
 
   //Converting prices to two decimal places
 
-  const price = `₦${props.price.toFixed(2)}`;
+  const price = `₹${props.price.toFixed(2)}`;
 
   //END
 
@@ -30,7 +30,7 @@ const HeroThreeContent = (props) => {
   return (
     <div className={classes.dish_content}>
       <div className={classes.dish_image_div}>
-        <img src={props.src} alt="Dish" />
+        <img src={props.src} alt="Dish" className="dish" width={260}/>
       </div>
       <div className={classes.dish_text_div}>
         <p>{props.name}</p>
