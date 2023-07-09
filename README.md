@@ -1,4 +1,4 @@
-# HOMELY food order application
+<!-- # HOMELY food order application
 
 A simulation of an Application where you can order and pay for food
 
@@ -57,4 +57,4 @@ This is the version 1.0 of the food order application but i hope to improve the 
 git clone or pull the project in your terminal, open the project folder on your local laptop in a code editor and run "npm start" in your editors terminal.
 
 
-
+ -->
