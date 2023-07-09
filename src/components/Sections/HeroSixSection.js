@@ -33,7 +33,7 @@ const HeroSixSection = () => {
               <h4 className={classes.header_text}>Yogendra Raj</h4>
               <p className={classes.text_location}>Raipur</p>
               <p className={classes.text_content}>
-                With a Homely Eats meal, you can serve delectable, home-cooked
+                With a Rosai Eats meal, you can serve delectable, home-cooked
                 meals to your family and friends in any location, anytime.
                 anyday!
               </p>
@@ -70,7 +70,7 @@ const HeroSixSection = () => {
               <h4 className={classes.header_text}>Suman </h4>
               <p className={classes.text_location}>Jhalawar</p>
               <p className={classes.text_content}>
-                No need to worry about any of this anymore with your app. Homely
+                No need to worry about any of this anymore with your app. Rosai
                 Eats are made with the highest quality ingredients for you and
                 your family.{" "}
               </p>
